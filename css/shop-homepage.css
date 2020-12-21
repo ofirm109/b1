@@ -1,0 +1,44 @@
+/*!
+ * Start Bootstrap - Shop Homepage (https://startbootstrap.com/template/shop-homepage)
+ * Copyright 2013-2020 Start Bootstrap
+ * Licensed under MIT (https://github.com/StartBootstrap/startbootstrap-shop-homepage/blob/master/LICENSE)
+ */
+body {
+  padding-top: 56px;
+}
+h4,p{
+    direction:rtl;
+    text-align:right;
+}
+h4{
+    text-align:center;
+}
+.navbar-brand{
+    margin-right:-50px;
+}
+.carousel{
+    margin-right:12%;
+}
+@media only screen and (max-width: 800px) {
+    .carousel {
+        margin-right: 0%;
+    }
+}
+    /*#navbarResponsive {
+    margin-right: 50%;
+}*/
+.mypage {
+    animation: fadeInAnimation ease 3.5s;
+    animation-iteration-count: 1;
+    animation-fill-mode: forwards;
+}
+
+@keyframes fadeInAnimation {
+    0% {
+        opacity: 0;
+    }
+
+    100% {
+        opacity: 1;
+    }
+} 
